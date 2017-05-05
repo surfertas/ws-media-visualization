@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr" class="uk-height-1-1">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Login layout example - UIkit documentation</title>
+      <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+      <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
+      <link rel="stylesheet" href="/static/stylesheet/css/uikit.min.css" >
+      <link rel="stylesheet" href="/static/stylesheet/css/uikit-core.min.css" >
+      <link rel="stylesheet" href="/static/stylesheet/css/uikit-rtl.min.css" >
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.24.0/css/components/upload.css">
+
+      <script type="text/javascript" src="/static/stylesheet/js/uikit.min.js"></script>
+      <script type="text/javascript" src="/static/stylesheet/js/uikit-icons.min.js"></script>
+      <script type="text/javascript" src="/static/stylesheet/js/uikit-core.min.js"></script>
+      <script type="text/javascript" src="/static/stylesheet/js/components/upload.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/js/core/nav.min.js"></script>
+
+    </head>
+    <body class="body">
+      <nav class="uk-navbar">
+        <ul class="uk-navbar-nav">
+          <li class="uk-active"><a href="/main">Open Lesson</a></li>
+          <li class="uk-parent"><a href="/">Log Out</a></li>
+        </ul>
+      </nav>
+    {% block child %}
+    {% endblock %}
+    </body>
+</html>

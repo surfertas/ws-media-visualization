@@ -1,0 +1,21 @@
+{% extends "pre-layout.html" %}
+{% block child %}
+
+<div class="uk-vertical-align uk-text-center uk-height-1-1">
+    <div class="uk-vertical-align-middle" style="width: 550px;">
+        <img class="uk-margin-bottom" width="600" height="400" src="https://static.pexels.com/photos/101550/pexels-photo-101550.jpeg" alt="">
+        <form action="/" method="post" class="uk-panel uk-panel-box uk-form">
+          <div class="uk-form-row">
+              <input class="uk-width-1-1 uk-form-large" type="text" placeholder="Username" name="username" required/>
+          </div>
+          <div class="uk-form-row">
+              <input class="uk-width-1-1 uk-form-large" type="password" placeholder="Password" name="password" required/>
+          </div>
+          <div class="uk-form-row">
+              <input class="uk-width-1-1 uk-button uk-button-primary uk-button-large" type="submit" role="button"></input>
+          </div>
+        </form>
+    </div>
+</div>
+
+{% endblock %}

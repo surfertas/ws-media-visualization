@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block child %}
+
+<div class="jumbotron">
+    <img class="center" src="https://static.pexels.com/photos/101550/pexels-photo-101550.jpeg"/>
+</div>
+
+<div class="test-upload uk-placeholder uk-text-center">
+    <form action='/videos/process/flow' enctype="multipart/form-data" method="post">
+      <span class="uk-text-middle">Attach binaries by</span>
+      <input type="file" name="file">
+      <input type="submit" id="submit" name="" value="Upload" />
+    </form>
+</div>
+
+{% endblock %}
