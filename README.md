@@ -6,7 +6,7 @@ motion flow visualization using computer vision techniques.
 
 ### Note:
 - This was just an exercise to understand some of the workflow involved in
-  created a web service.
+  creating a web service.
 
 ### Usage:
 ```
